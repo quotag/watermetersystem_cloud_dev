@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "IoTHubMessages",
+      "direction": "in",
+      "eventHubName": "WaterMeterSystemIoTHub",
+      "connection": "AZUREEVENTHUBCONNECTIONSTRING",
+      "cardinality": "many",
+      "consumerGroup": "$Default"
+    }
+  ]
+}
